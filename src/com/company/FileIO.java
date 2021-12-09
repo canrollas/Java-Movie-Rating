@@ -44,4 +44,7 @@ public class FileIO {
 
     }
 
+    public Stack<Object> getContentStackSorted() {
+        return contentStackSorted;
+    }
 }

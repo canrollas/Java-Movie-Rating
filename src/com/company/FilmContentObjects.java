@@ -44,4 +44,16 @@ public class FilmContentObjects {
     public int getYear() {
         return year;
     }
+
+    @Override
+    public String toString() {
+        return "FilmContentObjects{" +
+                "arrDay=" + arrDay +
+                ", typeInt=" + typeInt +
+                ", name='" + name + '\'' +
+                ", year=" + year +
+                ", hour=" + hour +
+                ", rating=" + rating +
+                '}';
+    }
 }

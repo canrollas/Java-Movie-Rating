@@ -36,4 +36,15 @@ public class GameContentObjects {
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "GameContentObjects{" +
+                "arrDay=" + arrDay +
+                ", typeInt=" + typeInt +
+                ", name='" + name + '\'' +
+                ", hour=" + hour +
+                ", rating=" + rating +
+                '}';
+    }
 }
